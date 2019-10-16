@@ -1,0 +1,118 @@
+* {
+  box-sizing: border-box;
+  font-family: sans-serif;
+  line-height: 1.7em;
+}
+
+header {
+  background-color: DarkCyan;
+  color: #ffffff;
+  padding: 2rem;
+}
+
+h1 {
+  font-size: 300%;
+}
+
+h2 {
+  font-weight: normal;
+}
+
+h3.quote {
+  color: DarkCyan;
+}
+
+h4.intro, h4.staff {
+  color: DarkCyan;
+}
+
+ul.navigation {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+ul.footer {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  float: left
+}
+
+a.navigation:link, a.navigation:visited {
+  display: block;
+  background-color: WhiteSmoke;
+  color: Black;
+  text-decoration: none;
+  text-align: center;
+  font-weight: bold;
+  padding: 1.5rem;
+  margin: 0;
+}
+
+a.footer:link, a.footer:visited {
+  display: block;
+  background-color: DimGray;
+  color: White;
+  text-decoration: none;
+  text-align: center;
+  font-weight: bold;
+  padding: .5rem;
+  margin: 0;
+}
+
+a.link {
+  text-decoration: none;
+  color: DarkCyan;
+}
+
+a.sidebar {
+  text-decoration: none;
+  color: DarkCyan;
+  font-size: 80%;
+}
+
+body {
+  color: DarkSlateGray;
+}
+
+section.left {
+  float: left;
+  width: 60%;
+  margin-left: 2rem;
+}
+
+aside {
+    width: 35%;
+    padding-left: .5rem;
+    margin-left: .5rem;
+    display: block;
+    float: right;
+}
+
+p.small, figcaption.small {
+  font-size: 80%;
+}
+
+footer {
+
+  background-color: DimGray;
+  color: #ffffff;
+  font-size: 80%;
+  padding: 3rem;
+  clear: right;
+  text-align: center;
+}
+
+footer.about {
+  background-color: DimGray;
+  color: #ffffff;
+  font-size: 80%;
+  padding: 3rem;
+  position: static;
+  text-align: center;
+}
